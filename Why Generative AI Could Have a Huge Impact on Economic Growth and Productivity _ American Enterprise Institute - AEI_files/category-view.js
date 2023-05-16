@@ -1,0 +1,1 @@
+jQuery(function(){var $=jQuery;$.post(aeiCategoryViewAJAX.url,{_ajax_nonce:aeiCategoryViewAJAX.nonce,action:'record-category-view',categories:aeiCategoryViewAJAX.categories,url:aeiCategoryViewAJAX.page_url,post_type:aeiCategoryViewAJAX.post_type,authors:aeiCategoryViewAJAX.authors},function(response){console.log(response);});});
